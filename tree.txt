@@ -1,0 +1,36 @@
+frontend/
+│
+├── public/                # File tĩnh (favicon, index.html, ảnh logo)
+│
+├── src/
+│   ├── api/               # Hàm gọi API tới backend
+│   │    ├── userApi.js
+│   │    ├── productApi.js
+│   │    └── orderApi.js
+│   │
+│   ├── assets/            # Ảnh, icon, css, fonts, v.v.
+│   │
+│   ├── components/        # Component dùng lại nhiều lần (Button, Modal, Input...)
+│   │
+│   ├── pages/             # Từng trang (Home, Login, Admin, Cart, ProductDetail,...)
+│   │    ├── HomePage.jsx
+│   │    ├── LoginPage.jsx
+│   │    ├── RegisterPage.jsx
+│   │    ├── ProductListPage.jsx
+│   │    ├── CartPage.jsx
+│   │    ├── OrderPage.jsx
+│   │    ├── AdminPage.jsx
+│   │    └── ...
+│   │
+│   ├── layouts/           # Layouts (giao diện khung ngoài cho admin, user)
+│   │
+│   ├── routes/            # Định nghĩa các route, bảo vệ route, phân quyền
+│   │
+│   ├── utils/             # Hàm tiện ích JS
+│   │
+│   ├── App.jsx
+│   ├── index.js
+│   └── ...
+│
+├── package.json
+└── README.md
